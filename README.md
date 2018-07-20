@@ -3,7 +3,7 @@
 
 ## Project
 
-Movie Recommendation Engine
+This is an implementation Movie Recommendation System. 
 
 ## Project data
 
@@ -22,18 +22,7 @@ Description: 100,000 ratings and 1,300 tag applications applied to 9,000 movies 
 Description: 100,000 ratings and 1,300 tag applications applied to 1682 movies by 943 users. Released 4/1998.
 
 
-### Module code
 
-We place the module code in a file called `recommendationsystem.py` in directory called
-`recommendationsystem`. In an interactive Python session, the classes and functions defined inside of the
-`recommendationsystem.py` file are available in the `rs` namespace by typing following:
-
- `import recommendationsystem as rs`
-
-### Testing
-
-
-### Continuous integration
 
 
 
