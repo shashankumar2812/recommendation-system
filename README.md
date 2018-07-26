@@ -40,8 +40,45 @@ Description: 100,000 ratings and 1,300 tag applications applied to 9,000 movies 
 
 Description: 100,000 ratings and 1,300 tag applications applied to 1682 movies by 943 users. Released 4/1998.
 
+### Prerequisites
+
+* [Tensorflow](https://www.tensorflow.org/install/) - Used in Deep Neural Network to create models
+* [Numpy](http://www.numpy.org/) - Multidimensioanl Mathematical Computing 
+* [Pandas](http://pandas.pydata.org/pandas-docs/version/0.18.0/) - Used to load dataset
+* [Matplotlib](https://matplotlib.org/contents.html) - Used to plot Graph
 
 
+### Installing
+
+Clone the repository
+
+```
+git clone https://github.com/shashankumar2812/Recommendation-system
+```
+
+Run the following command to download movie lens data set(26 millions records)
+
+```
+python download_dataset.py
+```
+
+Run the following command to use Popularity and Item based recommedation models(based on Jaccard similarity)
+
+```
+python recommenders.py
+```
+
+Run the following command to train model
+
+```
+python train_model.py
+```
+
+Run the following command to generate a file which test the recommended ratings to the users in training dataset.
+
+```
+python predict_model.py
+```
 
 
 
