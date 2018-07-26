@@ -129,7 +129,7 @@ def train_nn(user_batch, movie_batch, rating_batch):
 
 
 col_names = ["user", "movie", "ratings", "timestamp"]
-df = pd.read_csv('ml-1m/ratings.dat', sep='::', names=col_names, header=None,  engine='python')
+df = pd.read_csv('../data/processed/ratings.csv', sep='::', names=col_names, header=None,  engine='python')
 
 df.drop('timestamp',axis=1, inplace=True)
 data = np.array(df)
