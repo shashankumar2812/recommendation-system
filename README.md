@@ -4,18 +4,18 @@
 ## Project
 
 This is an implementation Movie Recommendation System with following features:
-Popularity based recommendations
-Item based recommendations
-User similarity based recommendations(Collaborative Filtering)
-Hybrid of Item and User similarity based recommendations
+1. Popularity based recommendations
+2. Item based recommendations
+3. User similarity based recommendations(Collaborative Filtering)
+4. Hybrid of Item and User similarity based recommendations
 
 ## Algorithms implemented:
 
 1. Cosine, Euclieadean and Jaccard similarity
 2. Clustering-kmeans, affinity propagation 
-3. k-nearest neighbors,
-4. SVDs
-5. Artificial Neural Networks/LSTM (Optimization techniques: Gradient Desecent/Adam loss)
+3. k-nearest neighbors
+4. Singlular Value Decomposition(SVDs)
+5. Artificial Neural Networks/Long Short Term Memory Network(LSTM) (Optimization techniques: Gradient Desecent/Adam loss)
 
 ## Optimization Metrics:
 1. RMSE, MAE
