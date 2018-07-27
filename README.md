@@ -62,7 +62,7 @@ Run the following command to download movie lens data set(26 millions records)
 python download_dataset.py
 ```
 
-Run the following command to use Popularity and Item based recommedation models(based on Jaccard similarity)
+Run the following command to use Popularity and Item based recommedation models.
 
 ```
 python recommenders.py
